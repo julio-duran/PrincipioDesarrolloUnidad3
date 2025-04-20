@@ -10,27 +10,6 @@ Original file is located at
 # Pedir número al usuario
 num_decimal = int(input("¡Hola! Ingresa un número decimal: "))
 
-# Mostrar el número ingresado
-print(f"Número ingresado: {num_decimal}")
-
-# Convertir a binario, octal y hexadecimal
-n_binario = bin(num_decimal)[2:]
-n_octal = oct(num_decimal)[2:]
-n_hexadecimal = hex(num_decimal)[2:]
-
-# Mostrar resultados
-print("\nResultados:")
-print(f"Hexadecimal: {n_hexadecimal}")
-
-# Condición para mostrar binario o octal según si el número es par o impar
-if num_decimal % 2 == 0:
-    print(f"Binario: {n_binario}")
-else:
-    print(f"Octal: {n_octal}")
-
-# Pedir número al usuario
-num_decimal = int(input("¡Hola! Ingresa un número decimal: "))
-
 # Identificar si el número ingresado es par o no
 if num_decimal % 2 == 0:
     var_par="par"
